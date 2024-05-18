@@ -3,9 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34622.214
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Woof.Server", "Woof.Server\Woof.Server.csproj", "{380424FF-D44C-4F8D-A752-06C238869795}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Woof.Server", "Woof.Server\Woof.Server.csproj", "{380424FF-D44C-4F8D-A752-06C238869795}"
 EndProject
 Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "woof.client", "woof.client\woof.client.esproj", "{5CE0D1D8-6281-487B-AAC9-30B4E6AA2101}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Woof.Domain", "Woof.Domain\Woof.Domain.csproj", "{7E73010C-3630-413F-8C4F-F4773FD0ED1C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Woof.DataAccess", "Woof.DataAccess\Woof.DataAccess.csproj", "{9C6412DA-7D17-490C-BEBD-229B243C1B8B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Woof.BusinessLogic", "Woof.BusinessLogic\Woof.BusinessLogic.csproj", "{00C04A08-E026-4EF6-9322-BD27F25E6B3F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,6 +29,18 @@ Global
 		{5CE0D1D8-6281-487B-AAC9-30B4E6AA2101}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5CE0D1D8-6281-487B-AAC9-30B4E6AA2101}.Release|Any CPU.Build.0 = Release|Any CPU
 		{5CE0D1D8-6281-487B-AAC9-30B4E6AA2101}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{7E73010C-3630-413F-8C4F-F4773FD0ED1C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7E73010C-3630-413F-8C4F-F4773FD0ED1C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7E73010C-3630-413F-8C4F-F4773FD0ED1C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7E73010C-3630-413F-8C4F-F4773FD0ED1C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9C6412DA-7D17-490C-BEBD-229B243C1B8B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9C6412DA-7D17-490C-BEBD-229B243C1B8B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9C6412DA-7D17-490C-BEBD-229B243C1B8B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9C6412DA-7D17-490C-BEBD-229B243C1B8B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{00C04A08-E026-4EF6-9322-BD27F25E6B3F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{00C04A08-E026-4EF6-9322-BD27F25E6B3F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{00C04A08-E026-4EF6-9322-BD27F25E6B3F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{00C04A08-E026-4EF6-9322-BD27F25E6B3F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
