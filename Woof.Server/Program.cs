@@ -5,7 +5,7 @@ using Microsoft.IdentityModel.Tokens;
 using System.Text;
 using Woof.BusinessLogic;
 using Woof.DataAccess;
-using Woof.Server.Settings;
+using Woof.Domain.Config;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -63,6 +63,7 @@ if (app.Environment.IsDevelopment())
 
 app.UseHttpsRedirection();
 
+app.UseAuthentication();
 app.UseAuthorization();
 
 app.MapControllers();

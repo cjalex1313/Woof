@@ -1,4 +1,4 @@
-﻿namespace Woof.Server.Settings
+﻿namespace Woof.Domain.Config
 {
     public class JWTConfig
     {

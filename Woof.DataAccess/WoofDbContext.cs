@@ -18,6 +18,13 @@ namespace Woof.DataAccess
 
             ClinicDbMapping.MapClinic(builder.Entity<Clinic>());
         }
+
+        // Uncomment to see all the db logs in console
+        //protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+        //{
+        //    base.OnConfiguring(optionsBuilder);
+        //    optionsBuilder.LogTo(Console.WriteLine);
+        //}
     }
 
 
