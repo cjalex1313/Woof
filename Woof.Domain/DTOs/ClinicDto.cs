@@ -4,12 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Woof.Domain.Entities
+namespace Woof.Domain.DTOs
 {
-    public class Clinic
+    public class ClinicDto
     {
-        public int ID { get; set; }
         public required string Name { get; set; }
     }
-
 }

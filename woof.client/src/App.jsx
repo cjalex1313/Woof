@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react';
 import './App.css';
+import { Button } from '@mui/material/index';
 
 function App() {
     const [forecasts, setForecasts] = useState();
@@ -33,6 +34,7 @@ function App() {
 
     return (
         <div>
+            <Button>Caca2</Button>
             <h1 id="tabelLabel">Weather forecast</h1>
             <p>This component demonstrates fetching data from the server.</p>
             {contents}
