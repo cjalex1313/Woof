@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Woof.DataAccess;
+using Woof.Domain.DTOs;
 
 namespace Woof.BusinessLogic.Clinic
 {
@@ -19,5 +20,13 @@ namespace Woof.BusinessLogic.Clinic
         {
            return _dbContext.Clinics.ToList();
         }
+
+        public int CreateClinic(ClinicDto clinicDto)
+        {
+            var clinic = new Domain.Entities.Clinic() { Name = clinicDto.Name};
+            _dbContext.Clinics.Add(clinic);
+            return _dbContext.SaveChanges();
+        }
+
     }
 }
